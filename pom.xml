@@ -11,7 +11,7 @@
 	<artifactId>uvms-commons-parent</artifactId>
 	<packaging>pom</packaging>
 
-	<version>4.1.12</version>
+	<version>4.1.13-SNAPSHOT</version>
 	<name>uvms-commons-parent</name>
 	<url>https://github.com/FocusFish/UVMS-UVMSCommonsLibrary</url>
 
