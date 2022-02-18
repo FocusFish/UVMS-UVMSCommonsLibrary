@@ -4,22 +4,22 @@
 	<parent>
 		<groupId>fish.focus.uvms.maven</groupId>
 		<artifactId>uvms-pom</artifactId>
-		<version>3.8</version>
+		<version>3.16</version>
 	</parent>
 
-	<groupId>eu.europa.ec.fisheries.uvms.commons</groupId>
+	<groupId>fish.focus.uvms.commons</groupId>
 	<artifactId>uvms-commons-parent</artifactId>
 	<packaging>pom</packaging>
 
-	<version>4.1.12-SNAPSHOT</version>
+	<version>4.1.12</version>
 	<name>uvms-commons-parent</name>
-	<url>https://github.com/UnionVMS/UVMS-UVMSCommonsLibrary</url>
+	<url>https://github.com/FocusFish/UVMS-UVMSCommonsLibrary</url>
 
 	<properties>
 		<!-- Maven default properties -->
 		<project.scm.id>github</project.scm.id>
-		<scm.connection>scm:git:https://github.com/UnionVMS/UVMS-UVMSCommonsLibrary.git</scm.connection>
-		<scm.url>scm:git:https://github.com/UnionVMS/UVMS-UVMSCommonsLibrary.git</scm.url>
+		<scm.connection>scm:git:https://github.com/FocusFish/UVMS-UVMSCommonsLibrary.git</scm.connection>
+		<scm.url>scm:git:https://github.com/FocusFish/UVMS-UVMSCommonsLibrary.git</scm.url>
 	</properties>
 
 	<dependencyManagement>
@@ -27,7 +27,7 @@
 			<dependency>
 				<groupId>fish.focus.uvms.maven</groupId>
 				<artifactId>uvms-pom-java11-deps</artifactId>
-				<version>3.8</version>
+				<version>3.16</version>
 				<type>pom</type>
 				<scope>provided</scope>
 			</dependency>
@@ -52,34 +52,9 @@
 		<module>geometry</module>
     </modules>
 
-	<repositories>
-		<repository>
-			<id>OSGEO GeoTools repo</id>
-			<url>http://download.osgeo.org/webdav/geotools</url>
-		</repository>
-		<repository>
-			<id>focus-repo</id>
-			<name>Focus nexus repository</name>
-			<url>http://nexus.focus.fish/nexus/</url>
-		</repository>
-	</repositories>
-
-	<distributionManagement>
-		<repository>
-			<id>focus-releases</id>
-			<name>UnionVms Repository</name>
-			<url>http://nexus.focus.fish/nexus/content/repositories/releases/</url>
-		</repository>
-		<snapshotRepository>
-			<id>focus-snapshots</id>
-			<name>UnionVms Snapshot Repository</name>
-			<url>http://nexus.focus.fish/nexus/content/repositories/snapshots/</url>
-		</snapshotRepository>
-	</distributionManagement>
-
 	<scm>
 		<connection>${scm.connection}</connection>
-		<tag>uvms-commons-parent-3.1-SNAPSHOT</tag>
+		<tag>HEAD</tag>
 	</scm>
 
 </project>

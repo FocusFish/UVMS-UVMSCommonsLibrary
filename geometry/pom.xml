@@ -2,9 +2,9 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<parent>
-		<groupId>eu.europa.ec.fisheries.uvms.commons</groupId>
+		<groupId>fish.focus.uvms.commons</groupId>
 		<artifactId>uvms-commons-parent</artifactId>
-		<version>4.1.12-SNAPSHOT</version>
+		<version>4.1.12</version>
 		<relativePath>../pom.xml</relativePath>
 	</parent>
 
@@ -20,7 +20,7 @@
 
 	<dependencies>
 		<dependency>
-			<groupId>eu.europa.ec.fisheries.uvms.commons</groupId>
+			<groupId>fish.focus.uvms.commons</groupId>
 			<artifactId>uvms-commons-date</artifactId>
 			<version>${project.version}</version>
 		</dependency>
