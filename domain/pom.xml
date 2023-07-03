@@ -14,7 +14,7 @@
 	<name>uvms-commons-domain</name>
 
 	<properties>
-		<hibernate-search-orm.version>5.11.11.Final</hibernate-search-orm.version>
+		<hibernate-search-orm.version>5.11.12.Final</hibernate-search-orm.version>
 	</properties>
 
 	<dependencies>
