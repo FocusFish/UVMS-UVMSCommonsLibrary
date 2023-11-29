@@ -4,7 +4,7 @@
 	<parent>
 		<groupId>fish.focus.uvms.commons</groupId>
 		<artifactId>uvms-commons-parent</artifactId>
-		<version>4.1.12</version>
+		<version>4.1.13</version>
 		<relativePath>../pom.xml</relativePath>
 	</parent>
 
@@ -15,7 +15,7 @@
 
 	<properties>
 		<geotools.version>22.2</geotools.version>
-		<mapstruct.version>1.4.2.Final</mapstruct.version>
+		<mapstruct.version>1.5.5.Final</mapstruct.version>
 	</properties>
 
 	<dependencies>

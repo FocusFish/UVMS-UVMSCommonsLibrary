@@ -4,7 +4,7 @@
 	<parent>
 		<groupId>fish.focus.uvms.commons</groupId>
 		<artifactId>uvms-commons-parent</artifactId>
-		<version>4.1.12</version>
+		<version>4.1.13</version>
 		<relativePath>../pom.xml</relativePath>
 	</parent>
 
@@ -14,7 +14,7 @@
 	<name>uvms-commons-domain</name>
 
 	<properties>
-		<hibernate-search-orm.version>5.11.10.Final</hibernate-search-orm.version>
+		<hibernate-search-orm.version>5.11.12.Final</hibernate-search-orm.version>
 	</properties>
 
 	<dependencies>
