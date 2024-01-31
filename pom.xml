@@ -50,6 +50,7 @@
 		<module>dao</module>
 		<module>notification</module>
 		<module>geometry</module>
+		<module>cache</module>
     </modules>
 
 	<scm>
