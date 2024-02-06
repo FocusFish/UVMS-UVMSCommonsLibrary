@@ -1,9 +1,11 @@
 package fish.focus.uvms.commons.cache;
 
+import javax.enterprise.context.ApplicationScoped;
 import java.time.Duration;
 import java.time.LocalDateTime;
 import java.util.HashMap;
 
+@ApplicationScoped
 public class HavCache<K, V> {
     private HashMap<K, HavCacheValue<V>> internalCache;
     private Duration durationUntilExpired;
