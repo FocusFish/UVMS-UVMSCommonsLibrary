@@ -9,6 +9,8 @@ public class HavCache<K, V> {
     private Duration durationUntilExpired;
     private HavCacheLoader<K, V> cacheLoader;
 
+    public HavCache() {}
+
     public HavCache(HavCacheLoader<K, V> cacheLoader, Duration durationUntilExpired) {
         internalCache = new HashMap<>();
         this.cacheLoader = cacheLoader;
